@@ -1,0 +1,11 @@
+{
+    "name": "To Do App",
+    "version": "1.0.0",
+    "description": "Save you task and check them when done",
+    "manifest_version": 3,
+    "author": "Tolulope Omoniyi",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "To do app"
+    }
+}

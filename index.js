@@ -1,6 +1,8 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
+const addButton = document.getElementById("add-button");
+addButton.addEventListener("click", addTask);
 function addTask(){
   if(inputBox.value === ''){
     alert("You must write something!");
